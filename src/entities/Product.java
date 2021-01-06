@@ -60,5 +60,13 @@ public class Product {
 	public void setImageUri(String imageUri) {
 		this.imageUri = imageUri;
 	}
+
+	@Override
+	public String toString() {
+		return "Product [id=" + id + ", name=" + name + ", price=" + price + ", description=" + description
+				+ ", imageUri=" + imageUri + "]";
+	}
+	
+	
 	
 }
